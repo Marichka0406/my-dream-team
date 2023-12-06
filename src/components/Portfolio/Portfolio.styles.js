@@ -1,15 +1,25 @@
 export const styles = {
     wrapper: {
-      display: "flex",
-      flexDirection: "column",
-      alignItems:"center",
-      mt:"50px",
-      mb:"30px"
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        marginTop: "50px",
+        marginBottom: "30px",
     },
-    title:{
-        color:"#007bff",
-        textShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)",
-        mb:"40px"
-    }
+    titleBox: {
+        borderRadius: "10px",
+        padding: "20px",
+        background: "rgba(246,66,108,0.3)",
+        marginBottom: "50px",
+        borderStyle:"solid",
+        borderColor:"rgb(246,66,66)",
+    },
+    title: {
+        color: "#ffffff",
+        fontWeight: 700,
+        fontFamily: "'Roboto', sans-serif",
+        fontSize: "2.5rem",
+
+    },
 }
   
